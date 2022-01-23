@@ -28,7 +28,7 @@ export class UserService {
    * @param whereUnique
    * @returns User
    */
-  async findUnique(whereUnique: Prisma.UserWhereUniqueInput, includeCredentials = false) {
+  async findUnique(whereUnique: Prisma.UserWhereUniqueInput, includeCredentials = false): Promise<User> {
     throw new NotImplementedException();
   }
 
