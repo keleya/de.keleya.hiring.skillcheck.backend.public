@@ -21,5 +21,10 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     'max-len': ['error', { code: 120 }],
+    "prettier/prettier": ["error",
+     {
+      "endOfLine": "auto"
+     },
+    ]
   },
 };
